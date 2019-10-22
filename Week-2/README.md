@@ -270,3 +270,5 @@ guess = int(guess)
 __HINT 1:__ Look through the `random` module for useful ways to generate a random number.
 
 __HINT 2:__ You don't need to use `if` statements - we haven't learned how to use them in Python yet. Think about how you can use a Boolean variable in a clever way with the `==` comparator.
+this is just an example
+print()
