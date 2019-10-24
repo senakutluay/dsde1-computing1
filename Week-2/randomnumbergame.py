@@ -1,6 +1,4 @@
-##this is just to see this little input thing
-#question=input('what is your message?  ')
-#print(question)
+
 
 import random
 
