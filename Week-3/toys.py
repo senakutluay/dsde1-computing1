@@ -52,8 +52,7 @@ def is_even(a):
 def string_repeat(phrase, repeat):
     for a in range(repeat):
         newsentence = (a+1) * phrase
-    return newsentence
-    
+    return newsentence    
     
     
     # hint: you can add strings together 
