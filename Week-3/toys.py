@@ -8,8 +8,10 @@ with functions.
 
 # write a function that adds 1
 # to the input and prints the result
-def inc(a):
+def addOne(a):
+    a += 1
     print(a)
+
 
 
 # write a function that adds 1
