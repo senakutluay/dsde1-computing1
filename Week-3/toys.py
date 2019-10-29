@@ -50,6 +50,12 @@ def is_even(a):
 # e.g. string_repeat('ho', 3) returns
 # 'hohoho'
 def string_repeat(phrase, repeat):
+    for a in range(repeat):
+        newsentence = (a+1) * phrase
+    return newsentence
+    
+    
+    
     # hint: you can add strings together 
     # in order to concatenate them
     return str(phrase * lastqrepeat)
