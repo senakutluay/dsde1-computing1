@@ -16,8 +16,9 @@ def addOne(a):
 
 # write a function that adds 1
 # to the input and returns the result
-def inc_return(a):
-    return # hint this is incomplete
+def plusOne(a):
+    a += 1
+    return a
 
 
 # write a function that adds
