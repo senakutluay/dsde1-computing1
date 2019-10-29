@@ -8,7 +8,7 @@ with functions.
 
 # write a function that adds 1
 # to the input and prints the result
-def addOne(a):
+def inc(a):
     a += 1
     print(a)
 
@@ -16,7 +16,7 @@ def addOne(a):
 
 # write a function that adds 1
 # to the input and returns the result
-def plusOne(a):
+def inc_return(a):
     a += 1
     return a
 
