@@ -25,7 +25,9 @@ def plusOne(a):
 # the two input numbers together
 # and returns the sum
 def sum(a, b):
-    return
+    a=int(input('give me a?'))
+    b=int(input('give me b?'))
+    return a+b
 
 
 # write a function that takes two
