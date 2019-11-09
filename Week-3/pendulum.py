@@ -9,7 +9,7 @@ def errors(length, gravity):
         return TypeError
     elif b== False:
         return TypeError
-    elif a == True and b== True and a<=0:
+    elif a == True and b== True and a<0:
         return ValueError
     elif a == True and b== True and b<=0:
         return ValueError
