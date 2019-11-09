@@ -33,7 +33,7 @@ def part_reverse(the_list, beginning, end):
 def repeat_at_index(the_list, index):
     a=the_list[index]
     for x in range(index):
-        multiply=list((x+1)*a)
+        multiply=(x+1)*a
     addition=list(str(multiply))
     firsthalf=the_list[0:index]
     lasthalf=the_list[(index+1)::]
