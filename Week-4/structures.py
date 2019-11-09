@@ -20,7 +20,7 @@ def first_and_last(the_list):
 # If "end" is greater then "beginning" or any og the indices is out of the
 # list, raise a "ValueError" exception. 
 def part_reverse(the_list, beginning, end):
-    if end>beginning:
+    if end<beginning:
         return ValueError
     newlist=[the_list[beginning:end]]
 
