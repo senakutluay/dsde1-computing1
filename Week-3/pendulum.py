@@ -8,9 +8,9 @@ def errors(length, gravity):
     
     
     if a == False:
-        return TypeError
+        return 'TypeError'
     elif b== False:
-        return TypeError
+        return 'TypeError'
 
 def formula(x,y):
     return 2 * math.pi * math.sqrt(x/y)
