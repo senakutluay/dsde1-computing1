@@ -34,10 +34,10 @@ def repeat_at_index(the_list, index):
     a=the_list[index]
     for x in range(index):
         multiply=list((x+1)*a)
-    addition=int(d)for d in str(multiply)
+    addition=list(str(multiply))
     firsthalf=the_list[0:index]
     lasthalf=the_list[(index+1)::]
-    firsthalf.append(multipliedlist)
+    firsthalf.append(addition)
     for b in lasthalf:
         firsthalf.append(b)
     return firsthalf
