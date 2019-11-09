@@ -39,9 +39,8 @@ def repeat_at_index(the_list, index):
     for c in addition:
         firsthalf.append(c)
     
-    for b in lasthalf:
-        firsthalf.append(b)
-    return firsthalf
+    finallist= firsthalf + lasthalf
+    return finallist
    
 
     return newlist
