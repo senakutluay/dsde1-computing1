@@ -1,2 +1,2 @@
 def func(string):
-    return func
+    return str(func)
