@@ -22,9 +22,9 @@ def first_and_last(the_list):
 def part_reverse(the_list, beginning, end):
     if end<beginning:
         return ValueError
-    newlist=[the_list[beginning:end]]
-    newlist.reverse()
-    return newlist
+    newlist=the_list[beginning:end]
+    newlistfinal=newlist[::-1]
+    return newlistfinal
 
 
 # write a function that at the "index" of "the_list" inserts three times the
