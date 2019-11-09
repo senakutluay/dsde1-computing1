@@ -32,9 +32,15 @@ def part_reverse(the_list, beginning, end):
 # will return [0,1,2,3,3,3,4]. 
 def repeat_at_index(the_list, index):
     a=the_list[index]
-    for x in range(index):
-        newitem= (x+1) * a
-    newlist=the_list.insert(index, newitem)
+    for x in range index:
+        multipliedlist=(x+1)*a
+    firsthalf=the_list[0:index]
+    lasthalf=the_list[index::]
+    firsthalf.append(multipliedlist)
+    for b in lasthalf:
+        firsthalf.append(b)
+    return firsthalf
+   
 
     return newlist
 
