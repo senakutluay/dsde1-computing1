@@ -23,8 +23,8 @@ def part_reverse(the_list, beginning, end):
     if end<beginning:
         return ValueError
     newlist=[the_list[beginning:end]]
-    reverselist=newlist.reverse()
-    return list(reverselist)
+    newlist.reverse()
+    return newlist
 
 
 # write a function that at the "index" of "the_list" inserts three times the
