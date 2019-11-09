@@ -37,7 +37,9 @@ def repeat_at_index(the_list, index):
     addition=list(str(multiply))
     firsthalf=the_list[0:index]
     lasthalf=the_list[(index+1)::]
-    firsthalf.append(addition)
+    for c in addition:
+        firsthalf.append(c)
+    
     for b in lasthalf:
         firsthalf.append(b)
     return firsthalf
