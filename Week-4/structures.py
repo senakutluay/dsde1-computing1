@@ -102,20 +102,18 @@ def index_exists(dictionary, key):
     else:
         return False
     
-    
-
-
-
-
-
-
-
-    return
 
 # write a function which checks whether given value is stored in the
 # dictionary. Return True or False.
 def value_exists(dictionary, value):
-    return
+    if value in dictionary.values():
+        return True
+    else:
+        return False
+
+
+
+
 
 # write a function that returns a new dictionary which contains all the values
 # from dictionary1 and dictionary2.
