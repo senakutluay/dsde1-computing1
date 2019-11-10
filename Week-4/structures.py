@@ -96,14 +96,14 @@ def concatenate_sentences(sentenece1, sentence2):
 
 # write a function that checks whether there is a record with given key in the
 # dictionary. Return True or False.
-def index_exists(dictionary, key):
-    a=str(key)
-    x= dictionary[a]
-    y=""
-    if x !=y :
+def index_exists(dictionary, key1):
+    a=str(key1)
+    if a in dictionary:
         return True
     else:
-        return False
+        return
+    
+    
 
 
 
