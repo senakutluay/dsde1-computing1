@@ -87,9 +87,9 @@ def concatenate_sentences(sentenece1, sentence2):
         if (sentence1new[-1] in acceptable_ending) and (sentence2new[-1] in acceptable_ending):
             return sentence1new + " " + sentence2new
         else:
-            return ()
+            return 
     else:
-        return ()
+        return 
     
         
 # Dictionaries
