@@ -80,12 +80,12 @@ def palindrome_sentence(sentence):
 # or at the end and the must be exactly one space after the end of the first
 # sentence. 
 def concatenate_sentences(sentenece1, sentence2):
-    sentence1new= sentenece1.strip() + " "
+    sentence1new= sentenece1.strip()
     sentence2new= sentence2.strip()
     acceptable_ending=["?","!","."]
     if (sentence1new[0].isupper() == True) and (sentence2new[0].isupper() == True):
         if (sentence1new[-1] in acceptable_ending) and (sentence2new[-1] in acceptable_ending):
-            return sentence1new + sentence2new
+            return sentence1new + " " + sentence2new
         else:
             return ()
     else:
