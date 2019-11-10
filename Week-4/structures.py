@@ -85,11 +85,11 @@ def concatenate_sentences(sentenece1, sentence2):
     acceptable_ending=["?","!","."]
     sentence_together= sentence1new + sentence2new
     if sentence_together[0].isupper()==True:
-        for a in acceptable_ending:
-            if a == sentence_together[-1]:
-                return sentence_together
-            else:
-                return "does not end with anything that was specified"
+        if sentence_together[-1] in acceptable_ending:
+            return sentence_together
+        else:
+            return "does not end with anything that was specified"
+            
     else:
         return "first character is not capital"
         
