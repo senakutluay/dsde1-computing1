@@ -83,15 +83,14 @@ def concatenate_sentences(sentenece1, sentence2):
     sentence1new= sentenece1.strip() + " "
     sentence2new= sentence2.strip()
     acceptable_ending=["?","!","."]
-    sentence_together= sentence1new + sentence2new
-    if sentence_together[0].isupper()==True:
-        if sentence_together[-1] in acceptable_ending:
-            return sentence_together
+    if sentence1new[0].isupper() == True and sentence2new[0].isupper() == True:
+        if (sentence1new[-1] in acceptable_ending) and (sentence2new[-1] in acceptable_ending):
+            return sentence1new + sentence2new
         else:
-            return "does not end with anything that was specified"
-            
+            break
     else:
-        return "first character is not capital"
+        break
+    
         
 # Dictionaries
 
