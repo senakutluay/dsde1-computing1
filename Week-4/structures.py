@@ -98,7 +98,7 @@ def concatenate_sentences(sentenece1, sentence2):
 # dictionary. Return True or False.
 def index_exists(dictionary, key):
     a=str(key)
-    if a in dictionary:
+    if dictionary.get(a) in dictionary:
         return True
     else:
         return False
