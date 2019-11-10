@@ -51,7 +51,9 @@ def repeat_at_index(the_list, index):
 # write a function that checks whether the word is a palindrome, i.e. it reads
 # the same forward and backwards
 def palindrome_word(word):
-    return
+    reverse_word=word[::-1]
+
+    return bool(reverse_word == word)
 
 # write a function that checks whether the sentence is a palindrome, i.e. it
 # read the same forward and backward. Ignore all spaces and other characters
