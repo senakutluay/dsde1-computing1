@@ -93,32 +93,6 @@ def concatenate_sentences(sentenece1, sentence2):
     else:
         return "first character is not capital"
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-    return
-
-
-
-
-
-
-
-
-
-
-
-
 # Dictionaries
 
 # write a function that checks whether there is a record with given key in the
