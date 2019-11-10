@@ -101,7 +101,7 @@ def index_exists(dictionary, key1):
     if a in dictionary:
         return True
     else:
-        return
+        return False
     
     
 
