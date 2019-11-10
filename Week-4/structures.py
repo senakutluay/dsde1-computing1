@@ -60,6 +60,23 @@ def palindrome_word(word):
 # like fullstops, commas, etc. Also do not consider whether the letter is
 # capital or not. 
 def palindrome_sentence(sentence):
+    lower=sentence.lower()
+    nowhitespace= lower.replace(" ", "")
+    
+    punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~+'''
+  
+    for x in nowhitespace: 
+        if x in punctuations: 
+            nowhitespace = nowhitespace.replace(x, "")
+    reverse_sentence=nowhitespace[::-1]
+    return bool(reverse_sentence==nowhitespace)
+  
+   
+
+
+
+
+
     return
 
 # write a function that concatenates two sentences. First the function checks
