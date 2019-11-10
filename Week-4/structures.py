@@ -119,4 +119,4 @@ def value_exists(dictionary, value):
 # from dictionary1 and dictionary2.
 def merge_dictionaries(dictionary1, dictionary2):
 
-    return dictionary1.update(dictionary2)
+    return dict(dictionary1.update(dictionary2))
