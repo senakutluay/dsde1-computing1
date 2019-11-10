@@ -70,14 +70,7 @@ def palindrome_sentence(sentence):
             nowhitespace = nowhitespace.replace(x, "")
     reverse_sentence=nowhitespace[::-1]
     return bool(reverse_sentence==nowhitespace)
-  
-   
 
-
-
-
-
-    return
 
 # write a function that concatenates two sentences. First the function checks
 # whether the sentence meets the following criteria: it starts with a capital
@@ -87,7 +80,43 @@ def palindrome_sentence(sentence):
 # or at the end and the must be exactly one space after the end of the first
 # sentence. 
 def concatenate_sentences(sentenece1, sentence2):
+    sentence1new= sentenece1.strip() + " "
+    sentence2new= sentence2.strip()
+    acceptable_ending=["?","!","."]
+    sentence_together= sentence1new + sentence2new
+    if sentence_together[0].isupper()==True:
+        for a in acceptable_ending:
+            if a == sentence_together[-1]:
+                return sentence_together
+            else:
+                return "does not end with anything that was specified"
+    else:
+        return "first character is not capital"
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
     return
+
+
+
+
+
+
+
+
+
+
 
 
 # Dictionaries
