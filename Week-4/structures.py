@@ -117,6 +117,6 @@ def value_exists(dictionary, value):
 
 # write a function that returns a new dictionary which contains all the values
 # from dictionary1 and dictionary2.
-def merge_dictionaries(dictionary1, dictionary2):
-    x=dictionary1.update(dictionary2
-    return x
+def merge_dictionaries(dictionary1,dictionary2):
+    diction={**dictionary1, **dictionary2}
+    return diction
