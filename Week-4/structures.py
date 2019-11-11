@@ -8,6 +8,7 @@ Simple functions performing operations on basic Python data structures.
 
 # write a function that returns a list containig the first and the last element
 # of "the_list". 
+"""This function returns a list that contains the first and the last item of the given list"""
 def first_and_last(the_list):
     newlist=[the_list[0],the_list[-1]]
 
