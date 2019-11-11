@@ -44,8 +44,6 @@ def repeat_at_index(the_list, index):
     return finallist
    
 
-    return newlist
-
 
 # Strings
 
@@ -64,7 +62,7 @@ def palindrome_sentence(sentence):
     lower=sentence.lower()
     nowhitespace= lower.replace(" ", "")
     
-    punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~+'''
+    punctuations = list('''!()-[]{};:'",<>./?@#$%^&*_~+''')
   
     for x in nowhitespace: 
         if x in punctuations: 
