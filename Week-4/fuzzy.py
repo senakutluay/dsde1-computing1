@@ -18,7 +18,7 @@ def choices(question):
 
 
 def main():
-    this_variable = 'useless'
+    
     
     # first function takes three numbers
     answer = maths(3, 9 , 2.3)
