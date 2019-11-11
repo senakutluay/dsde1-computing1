@@ -10,7 +10,7 @@ Simple functions performing operations on basic Python data structures.
 # of "the_list". 
 
 def first_and_last(the_list):
-"""This function returns a list that contains the first and the last item of the given list"""
+ """This function returns a list that contains the first and the last item of the given list""" 
     newlist=[the_list[0],the_list[-1]]
 
     return newlist
